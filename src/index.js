@@ -6,6 +6,8 @@ import todos from "../api/todo.route"
 
 // Register api routes
 app.use("/api/todos", todos)
+console.log(process.env.MONGODB_URI)
+console.log(process.env.PORT)
 
 const port = process.env.PORT || 8000
 

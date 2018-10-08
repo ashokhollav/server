@@ -9,3 +9,5 @@ COPY . .
 EXPOSE 8000
 
 RUN npm install -g nodemon
+
+CMD ["node", "index.js"]
